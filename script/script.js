@@ -52,6 +52,15 @@ function changeColor0() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+
+
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
+
     let button = document.getElementById('A1');
     
         button.style.backgroundColor = 'green';
@@ -83,6 +92,11 @@ function changeColor11() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('A2');
 
         button.style.backgroundColor = 'green';
@@ -112,6 +126,11 @@ function changeColor22() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('A3');
 
         button.style.backgroundColor = 'green';
@@ -140,6 +159,11 @@ function changeColor33() {
     let bdt = document.getElementById('bdt_total');
     let calculated_money = money;
     bdt.innerText = calculated_money;
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('A4');
 
@@ -171,6 +195,11 @@ function changeColor44() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('B1');
 
         button.style.backgroundColor = 'green';
@@ -196,10 +225,16 @@ function changeColor55() {
 
     amount.innerText = money;
 
+
            
     let bdt = document.getElementById('bdt_total');
     let calculated_money = money;
     bdt.innerText = calculated_money;
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('B2');
 
@@ -231,6 +266,12 @@ function changeColor66() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('B3');
 
         button.style.backgroundColor = 'green';
@@ -260,6 +301,12 @@ function changeColor77() {
     let bdt = document.getElementById('bdt_total');
     let calculated_money = money;
     bdt.innerText = calculated_money;
+
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('B4');
 
@@ -292,6 +339,12 @@ function changeColor88() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('C1');
 
         button.style.backgroundColor = 'green';
@@ -320,6 +373,11 @@ function changeColor1() {
     let bdt = document.getElementById('bdt_total');
     let calculated_money = money;
     bdt.innerText = calculated_money;
+
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('C2');
 
@@ -350,6 +408,11 @@ function changeColor2() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('C3');
 
         button.style.backgroundColor = 'green';
@@ -377,6 +440,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('C4');
 
@@ -406,6 +474,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('D1');
 
         button.style.backgroundColor = 'green';
@@ -433,6 +506,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('D2');
 
@@ -462,6 +540,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('D3');
 
         button.style.backgroundColor = 'green';
@@ -489,6 +572,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('D4');
 
@@ -518,6 +606,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('E1');
 
         button.style.backgroundColor = 'green';
@@ -545,6 +638,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('E2');
 
@@ -574,6 +672,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('E3');
 
         button.style.backgroundColor = 'green';
@@ -601,6 +704,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('E4');
 
@@ -630,6 +738,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('F1');
 
         button.style.backgroundColor = 'green';
@@ -657,6 +770,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('F2');
 
@@ -686,6 +804,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('F3');
 
         button.style.backgroundColor = 'green';
@@ -713,6 +836,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('F4');
 
@@ -742,6 +870,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('G1');
 
         button.style.backgroundColor = 'green';
@@ -770,6 +903,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('G2');
 
         button.style.backgroundColor = 'green';
@@ -795,6 +933,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('G3');
 
@@ -824,6 +967,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('G4');
 
         button.style.backgroundColor = 'green';
@@ -851,6 +999,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('H1');
 
@@ -880,6 +1033,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('H2');
 
         button.style.backgroundColor = 'green';
@@ -907,6 +1065,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('H3');
 
@@ -936,6 +1099,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('H4');
 
         button.style.backgroundColor = 'green';
@@ -963,6 +1131,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('I1');
 
@@ -992,6 +1165,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('I2');
 
         button.style.backgroundColor = 'green';
@@ -1019,6 +1197,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('I3');
 
@@ -1048,6 +1231,11 @@ amount.innerText = money;
 let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
+
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
     let button = document.getElementById('I4');
 
@@ -1079,6 +1267,11 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
 
 
     let button = document.getElementById('J1');
@@ -1109,6 +1302,11 @@ function changeColorT() {
     let calculated_money = money;
     bdt.innerText = calculated_money;
 
+    let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
+
     let button = document.getElementById('J2');
 
         button.style.backgroundColor = 'green';
@@ -1121,8 +1319,6 @@ let ticketText = parseInt(ticketAmount.innerText);
 let ticketNumber = ticketText + 1;
 
 ticketAmount.innerText = ticketNumber;
-
-
 
 
 
@@ -1139,7 +1335,10 @@ let bdt = document.getElementById('bdt_total');
 let calculated_money = money;
 bdt.innerText = calculated_money;
 
-
+let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
 
 
     let button = document.getElementById('J3');
@@ -1174,6 +1373,12 @@ function changeColorV()
         let bdt = document.getElementById('bdt_total');
         let calculated_money = money;
         bdt.innerText = calculated_money;
+
+
+        let remaining_seat = document.getElementById('seat_left');
+    let converted_seat = parseInt(remaining_seat.innerText); // integer 40 got
+    let rem_seat  = converted_seat - 1;
+    remaining_seat.innerText = rem_seat;
         
 
 
