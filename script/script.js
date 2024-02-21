@@ -1,6 +1,9 @@
 function hide(){
     hideModalByID('modal');
 }
+function success(){
+    ShowModalByID('modal');
+}
 
 
 function hideModalByID(elementID){
