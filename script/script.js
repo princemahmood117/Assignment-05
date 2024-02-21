@@ -1,3 +1,4 @@
 function hide(){
     hideModalByID('modal');
 }
+

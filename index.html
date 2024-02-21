@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./Styles/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="mx-auto">
     <main class="pl-20 pr-20">
       <nav class="pt-10">
         <div class="flex justify-between">
@@ -50,7 +50,7 @@
           </div>
 
           
-          <button class="bg-[#1DD100] rounded p-4 rounded-2xl text-white">Buy Ticket</button>
+          <button onclick="scrollDowntoBus()" class="bg-[#1DD100] rounded p-4 rounded-2xl text-white">Buy Ticket</button>
         </div>
       </section>
       <!-- coupun section -->
@@ -69,7 +69,9 @@
               <h3>on your next purchase</h3>
               <p>used by january 2024</p>
             </div>
-            <!-- <div style="border-left: 3px dotted white; height: 106px;"></div>  -->
+          
+
+            
             <div class="flex items-center justify-center">
               <img class="" src="images/cupon-devider.png" alt="" />
             </div>
@@ -105,10 +107,10 @@
       </section>
 
       <!-- ticket process -->
-      <section class="bg-slate-300 pt-8 w-screen">
+      <section id="busSection" class="bg-slate-300 pt-8 w-screen">
         <!-- heading part  -->
         <div class="flex flex-col justify-center items-center pb-5 pl-20 pr-20">
-          <h1 class="font-black">P.H Paribahan</h1>
+          <h1 class="font-black text-4xl font-Roboto">P.H Paribahan</h1>
           <p>
             <p class="text-black pt-4 pb-4 pl-10">
               Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
@@ -117,7 +119,7 @@
         </div>
 
         <!-- 1st card -->
-        <div class="bg-white flex justify-between pt-10 pb-10 w-screen">
+        <div class="bg-white flex justify-between pt-10 pb-10 w-screen mx-auto pl-8">
           <!-- leftside -->
           <div class="w-screen">
             <!-- ----------------------------- -->
@@ -193,30 +195,30 @@
             <hr />
             <!-- seats -->
             <div class="flex justify-end pt-4">
-              <button class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600">
+              <button onclick="changeColor()" class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 colorButton">
                 <img src="./images/wheel.png" alt="" />
               </button>
             </div>
             <!-- a line -->
             <div  class="flex items-center justify-between pt-4">
               <h1 class="pl-2">A</h1>
-              <button onclick="" id="A1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor0()" id="A1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 A1
               </button>
-              <button onclick="" id="A2" 
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor11()" id="A2" 
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 A2
               </button>
-              <button onclick="" id="A3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor22()" id="A3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 A3
               </button>
-              <button onclick="" id="A4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor33()" id="A4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 A4
               </button>
@@ -226,23 +228,23 @@
             <!-- B line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">B</h1>
-              <button onclick="" id="B1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor44()" id="B1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 B1
               </button>
-              <button onclick="" id="B2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor55()" id="B2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 B2
               </button>
-              <button onclick="" id="B3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor66()" id="B3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 B3
               </button>
-              <button onclick="" id="B4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor77()" id="B4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 B4
               </button>
@@ -252,23 +254,23 @@
             <!-- C line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">C</h1>
-              <button onclick="" id="C1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor88()" id="C1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 C1
               </button>
-              <button onclick="" id="C2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor1()" id="C2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 C2
               </button>
-              <button onclick="" id="C3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor2()" id="C3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 C3
               </button>
-              <button onclick="" id="C4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor3()" id="C4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 C4
               </button>
@@ -277,23 +279,23 @@
             <!-- d line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">D</h1>
-              <button onclick="" id="D1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor4()" id="D1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 D1
               </button>
-              <button onclick="" id="D2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor5()" id="D2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 D2
               </button>
-              <button onclick="" id="D3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor6()" id="D3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 D3
               </button>
-              <button onclick="" id="D4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor7()" id="D4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 D4
               </button>
@@ -302,23 +304,23 @@
             <!-- E line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">E</h1>
-              <button onclick="" id="E1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor8()" id="E1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 E1
               </button>
-              <button onclick="" id="E2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColor9()" id="E2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 E2
               </button>
               <button onclick="" id="E3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 E3
               </button>
-              <button onclick="" id="E4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorA()" id="E4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 E4
               </button>
@@ -326,23 +328,23 @@
             <!-- F line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">F</h1>
-              <button onclick="" id="F1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorB()" id="F1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 F1
               </button>
-              <button onclick="" id="F2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorC()" id="F2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 F2
               </button>
-              <button onclick="" id="F3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorD()" id="F3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 F3
               </button>
-              <button onclick="" id="F4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorE()" id="F4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 F4
               </button>
@@ -350,23 +352,23 @@
             <!-- G line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">G</h1>
-              <button onclick="" id="G1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorF()" id="G1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 G1
               </button>
-              <button onclick="" id="G2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorG()" id="G2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 G2
               </button>
-              <button onclick="" id="G3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorH()" id="G3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 G3
               </button>
-              <button onclick="" id="G4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorI()" id="G4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 G4
               </button>
@@ -375,23 +377,23 @@
             <!-- H line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">H</h1>
-              <button onclick="" id="H1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorJ()" id="H1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 H1
               </button>
-              <button onclick="" id="H2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColoK()" id="H2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 H2
               </button>
-              <button onclick="" id="H3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorL()" id="H3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 H3
               </button>
-              <button onclick="" id="H4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorM()" id="H4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 H4
               </button>
@@ -399,23 +401,23 @@
             <!-- I line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">I</h1>
-              <button onclick="" id="I1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorN()" id="I1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 I 1
               </button>
-              <button onclick="" id="I2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorO()" id="I2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 I 2
               </button>
-              <button onclick="" id="I3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorP()" id="I3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 I 3
               </button>
-              <button onclick="" id="I4" 
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorQ()" id="I4" 
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 I 4
               </button>
@@ -423,23 +425,23 @@
             <!-- J line -->
             <div class="flex items-center justify-between pt-4">
               <h1 class="pl-2">J</h1>
-              <button onclick="" id="J1"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorR()" id="J1"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 J 1
               </button>
-              <button onclick="" id="J2"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorS()" id="J2"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 J 2
               </button>
-              <button onclick="" id="J3"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorT()" id="J3"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 J 3
               </button>
-              <button onclick="" id="J4"
-                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white"
+              <button onclick="changeColorU()" id="J4"
+                class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white colorButton"
               >
                 J 4
               </button>
